@@ -29,7 +29,7 @@ class MockData {
   /// Decorator Pattern
   /// ===============================
   static final AccountFeature decoratedAccount =
-      OverdraftProtection(BasicAccount());
+  OverdraftProtection(BasicAccount());
 
   /// ===============================
   /// Strategy Pattern
@@ -41,7 +41,7 @@ class MockData {
   /// Adapter Pattern
   /// ===============================
   static final PaymentProcessor paymentProcessor =
-      PaymentAdapter(LegacyPaymentSystem());
+  PaymentAdapter(LegacyPaymentSystem());
 
   /// ===============================
   /// Chain of Responsibility

@@ -5,6 +5,7 @@ class Account {
   final String name;
   final String type;
   double balance;
+
   AccountState state;
 
   Account({
